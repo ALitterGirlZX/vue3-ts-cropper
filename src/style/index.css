@@ -1,0 +1,176 @@
+/** 全局样式 */
+@import './cropper.css';
+
+/* header部分样式 */
+.ele-header {
+    width: 100%;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.ele-header .el-input-group__append,
+.ele-header .el-input-group__prepend,
+.ele-header .el-menu--horizontal .el-menu-item:not(.is-disabled):focus,
+.ele-header .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    background-color: #fff;
+}
+
+.ele-header .el-input__inner {
+    box-shadow: 0 0 0 1px #fff inset;
+}
+
+.ele-header .el-input-group--prepend .el-input-group__prepend .el-select .el-input.is-focus .el-input__inner:focus,
+.ele-header .el-input-group--prepend .el-input-group__prepend .el-select .el-input .el-input__inner:focus,
+.ele-header .el-input-group--prepend .el-input-group__prepend .el-select:hover .el-input__inner,
+.ele-header .el-input-group--prepend .el-input__inner,
+.ele-header .el-select .el-input__inner:focus {
+    box-shadow: 0 0 0 1px #fff inset !important;
+}
+
+.ele-header .el-input-group__append .el-button, .el-input-group__append .el-select, .el-input-group__prepend .el-button, .el-input-group__prepend .el-select {
+    margin: -5px -10px 0px -30px;
+}
+
+.ele-header .el-input-group--prepend .el-input__inner {
+    border-left: 1px solid #ccc;
+}
+
+.ele-header .ele-img {
+    width: 50px;
+    margin: 5px 20px 5px 20px;
+}
+
+.ele-header .el-span {
+    border-right: 1px solid #ccc;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.ele-header b {
+    font-size: 18px;
+}
+
+.ele-header .search {
+    width: 600px;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px var(--el-menu-border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    text-indent: 10px;
+    margin: 12px 0px 0px 10px;
+}
+
+.ele-header .el-input {
+    --el-input-border-color: #ffff;
+    --el-input-focus-border-color: #fff;
+    --el-input-hover-border-color: #fff;
+    --el-menu-hover-bg-color: #fff;
+}
+
+.ele-header .el-select {
+    width: 100px;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.ele-header .el-input-group__append {
+    background-color: #ffff !important;
+}
+
+.ele-header .el-button {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 18px;
+    margin: -5px 0px 10px 0px;
+}
+
+/*  */
+.body-card .el-img-bottom .el-icon {
+    color: #ffff;
+    font-size: 16px;
+    height: 25px;
+    width: 25px;
+    background-color: #696969;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+.body-card .el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    color: #00AA88;
+}
+
+.body-card .el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+    background-color: #00AA88;
+}
+
+.ele-body {
+    padding: 0;
+    margin: -50px 0px 0px 0px;
+  }
+  .body-card {
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    min-height: 800px;
+  }
+  .el-row {
+    margin-bottom: 20px;
+  }
+  .el-row:last-child {
+    margin-bottom: 0;
+  }
+  .el-col {
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .grid-content {
+    border-radius: 4px;
+    height: 280px;
+    min-width: 300px;
+    margin-top: 20px;
+    background: #f8f8f8;
+    overflow: hidden;
+  }
+  .el-img-bottom {
+    text-align: left;
+    font-size: 14px;
+    background: #ececec;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+  }
+  .image-preview {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+  }
+  .body-card span {
+    margin: 0px 0px 0px 30px;
+  }
+  .elicon {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .el-page {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-left: 35%;
+  }
+  .bottom-left{
+    float: left;
+    line-height: 15px;
+  }
+  .bottomright{
+    float: right;
+    margin-top: 10px;
+  }
